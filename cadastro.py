@@ -1,4 +1,4 @@
-print('Hello World!')
+#print('Hello World!')#
 from PySimpleGUI import PySimpleGUI as sg
 
 #layout
@@ -19,4 +19,4 @@ while True:
         break
     if eventos == 'Entrar':
         if valores['Usuario'] == 'marselo' and valores ['senha'] == '1234':
-            print('el lobo cuida de su loba!')
+            print('Bem venido!')
